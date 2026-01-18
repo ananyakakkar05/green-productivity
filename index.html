@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Green Productivity | Ananya</title>
+      <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <h1>Green Productivity 🌱</h1>
+<p>Plan your day. Track your progress.</p>
+
+<input 
+  type="text" 
+  id="taskInput" 
+  placeholder="Enter your task here"
+  onkeypress="handleKey(event)"
+>
+
+<button onclick="addTask()">Add Task</button>
+
+
+<h3>Today's Tasks</h3>
+<ul id="taskList"></ul>
+
+
+
+    <button onclick="showProgress()">End Day Progress</button>
+    <button onclick="clearDay()">Clear Day</button>
+
+<p id="result"></p>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
+
